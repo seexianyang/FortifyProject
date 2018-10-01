@@ -4,6 +4,7 @@ public class EightBall {
 	public static void main(String args[]) throws Exception {
 		char[] buffer = new char[1024];
 		String filename = args[0];
+		int num=0;
 		try {
 			filename = "" + (Integer.parseInt(filename) % 3);
 		} catch (Exception e) {
